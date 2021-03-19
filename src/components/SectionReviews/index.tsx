@@ -33,7 +33,7 @@ const settings = {
 
 const SectionReviews = ({ title, reviews }: SectionReviewsProps) => (
   <Container>
-    <Heading reverseColor> {title} </Heading>
+    <Heading reverseColor> Junte-se a mais de mil alunos </Heading>
 
     <S.Content>
       <Slider {...settings}>
