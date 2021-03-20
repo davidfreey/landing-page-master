@@ -6,11 +6,10 @@
     "test": "jest --passWithNoTests",
     "lint": "eslint src",
     "dev": "next",
-    "build": "next export",
+    "build": "next build",
     "start": "next start",
     "deploy": "yarn build && next export",
-    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|json)\"",
-    "export": "next build && next export"
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|json)\""
   },
   "author": "Davidson Freitas",
   "license": "MIT",
