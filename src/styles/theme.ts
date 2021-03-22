@@ -18,18 +18,27 @@ export default {
       large: '2.6rem',
       xlarge: '3.4rem',
       xxlarge: '5.2rem'
+    },
+    weight: {
+      light: 300,
+      regular: 400,
+      medium: 500,
+      semiBold: 600,
+      bold: 700
     }
   },
   colors: {
-    primary: '#F231A5',
-    primaryHover: '#E20E8D',
+    primary: '#e06469',
+    primaryHover: '#eebbc3',
     secondary: '#3CD3C1',
-    mainBg: '#030518',
+    mainBg: '#232946',
     boxBg: '#FAFAFA',
     texts: '#030517',
-    white: '#FFFFFF',
+    white: '#d4d8f0',
     black: '#000000',
-    gray: '#7B7373'
+    gray: '#7B7373',
+    textButton: '#232946',
+    secondaryBg: '#b8c1ec'
   },
   spacings: {
     xxsmall: '0.8rem',

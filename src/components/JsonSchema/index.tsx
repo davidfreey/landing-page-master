@@ -4,16 +4,16 @@ import { CourseJsonLd, ProductJsonLd } from 'next-seo'
 const JsonSchema = () => (
   <>
     <CourseJsonLd
-      courseName="React Avançado"
-      providerName="Willian Justen Cursos"
-      providerUrl="https://reactavancado.com.br/"
-      description="Aprenda a criar um Ecommerce completo, indo do Backend ao Frontend utilizando tecnologias como ReactJS, NextJS, Strapi, GraphQL, Apollo e muito mais!"
+      courseName="Cefalia Med"
+      providerName="David Freitas"
+      providerUrl="https://cefalia.com/"
+      description="Estude medicina online. Desde o Ciclo Básico Comum ao Ciclo Biomédico."
     />
     <ProductJsonLd
       productName="Curso React Avançado"
-      images={['https://reactavancado.com.br/img/cover.png']}
-      description="Aprenda a criar um Ecommerce completo, indo do Backend ao Frontend utilizando tecnologias como ReactJS, NextJS, Strapi, GraphQL, Apollo e muito mais!"
-      brand="Willian Justen Cursos"
+      images={['https://cefalia.com/img/cover.png']}
+      description="Estude medicina online. Desde o Ciclo Básico Comum ao Ciclo Biomédico."
+      brand="David Freitas"
       reviews={[
         {
           author: {
