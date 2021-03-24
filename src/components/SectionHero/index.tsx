@@ -71,8 +71,14 @@ const SectionHero = ({ logo, header }: Props) => {
           onClick={() => setIsOpen(false)}
         />
         <S.MenuNav>
-          <S.MenuLink href="#">Entrar</S.MenuLink>
-          <S.MenuLink href="#">Assets</S.MenuLink>
+          <S.MenuLink
+            href="https://dashboard.kiwify.com.br/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Entrar
+          </S.MenuLink>
+          <S.MenuLink href="/assets">Assets</S.MenuLink>
         </S.MenuNav>
       </S.MenuFull>
     </S.Wrapper>

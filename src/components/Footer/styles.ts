@@ -116,8 +116,8 @@ export const ContatoWrapper = styled.div`
 
       li{
   			.transition(all 300ms ease-in-out);
-         background: #161718;
-        	box-shadow: 0px 0px 10px #222222;
+        background: #161718;
+        box-shadow: 0px 0px 10px #222222;
         border-bottom:1px solid #333333;
 	  		height:50px;
         line-height:50px;
