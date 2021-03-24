@@ -31,6 +31,15 @@ const SectionHero = ({ logo, header }: Props) => {
           <S.LogoWrapper>
             <Logo {...logo} />
           </S.LogoWrapper>
+          <S.ButtonWrapper>
+            <S.ButtonHeader
+              href="https://dashboard.kiwify.com.br/"
+              target="_blank"
+              onClick={onClick}
+            >
+              Entrar
+            </S.ButtonHeader>
+          </S.ButtonWrapper>
           <MediaMatch lessThan="medium">
             <S.IconWrapper onClick={() => setIsOpen(true)}>
               <MenuIcon />

@@ -71,6 +71,33 @@ export const ButtonWrapper = styled.div`
       margin: 0;
       padding-right: ${theme.spacings.medium};
     `}
+
+    ${media.lessThan('medium')`
+      visibility: hidden
+    `}
+  `}
+`
+
+export const ButtonHeader = styled.a`
+  ${({ theme }) => css`
+    background: ${theme.colors.primary};
+    border-radius: ${theme.border.radius};
+    color: ${theme.colors.textButton};
+    font-size: ${theme.font.sizes.medium};
+    font-weight: ${theme.font.weight.semiBold};
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    transition: background 0.3s ease-in-out;
+    padding: 0.5rem ${theme.spacings.small};
+
+      &:hover {
+        opacity: 1;
+        transition: all 0.2s;
+        background: ${theme.colors.primary};
+        color: ${theme.colors.primaryHover};
+      }
+    );
   `}
 `
 
