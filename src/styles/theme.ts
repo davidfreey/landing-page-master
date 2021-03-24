@@ -38,7 +38,8 @@ export default {
     black: '#000000',
     gray: '#7B7373',
     textButton: '#232946',
-    secondaryBg: '#b8c1ec'
+    secondaryBg: '#b8c1ec',
+    cefaliaWhite: '#f2f0ee'
   },
   spacings: {
     xxsmall: '0.8rem',

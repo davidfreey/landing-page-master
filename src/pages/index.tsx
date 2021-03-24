@@ -12,6 +12,7 @@ import SectionAboutUs from 'components/SectionAboutUs'
 import SectionReviews from 'components/SectionReviews'
 import SectionFaq from 'components/SectionFaq'
 import Footer from 'components/Footer'
+import HeadingFooter from 'components/HeadingFooter'
 import JsonSchema from 'components/JsonSchema'
 
 import client from 'graphql/client'

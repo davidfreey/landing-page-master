@@ -24,7 +24,9 @@ const App = ({ Component, pageProps }: AppProps) => {
           title: 'Cefalia - Evolua na medicina com a tecnologia.',
           description:
             'Estude medicina online. Desde o Ciclo Básico Comum ao Ciclo Biomédico.',
-          images: [{ url: 'https://reactavancado.com.br/img/cover.png' }],
+          images: [
+            { url: 'https://apicefalia.s3.amazonaws.com/hero3_dddedaf284.svg' }
+          ],
           site_name: 'Cefalia +',
           locale: 'pt_BR'
         }}
