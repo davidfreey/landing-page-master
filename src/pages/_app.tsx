@@ -17,13 +17,13 @@ const App = ({ Component, pageProps }: AppProps) => {
       </Head>
       <NextSeo
         title="Cefalia - Evolua na medicina com a tecnologia."
-        description="Estude medicina online. Desde o Ciclo Básico Comum ao Ciclo Biomédico."
+        description="Estude medicina online. Desde o Ciclo Básico Comúm ao Ciclo Biomédico."
         canonical="https://cefalia.com/"
         openGraph={{
           url: 'https://cefalia.com/',
           title: 'Cefalia - Evolua na medicina com a tecnologia.',
           description:
-            'Estude medicina online. Desde o Ciclo Básico Comum ao Ciclo Biomédico.',
+            'Estude medicina online. Desde o Ciclo Básico Comúm ao Ciclo Biomédico.',
           images: [
             { url: 'https://apicefalia.s3.amazonaws.com/hero3_dddedaf284.svg' }
           ],
