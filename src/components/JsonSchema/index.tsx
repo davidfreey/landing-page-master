@@ -6,13 +6,13 @@ const JsonSchema = () => (
     <CourseJsonLd
       courseName="Cefalia Med"
       providerName="David Freitas"
-      providerUrl="https://cefalia.com/"
-      description="Estude medicina online. Desde o Ciclo Básico Comum ao Ciclo Biomédico."
+      providerUrl="https://apicefalia.s3.amazonaws.com/hero3_dddedaf284.svg"
+      description="Estude medicina online. Desde o Ciclo Básico Comúm ao Ciclo Biomédico."
     />
     <ProductJsonLd
       productName="Curso React Avançado"
-      images={['https://cefalia.com/img/cover.png']}
-      description="Estude medicina online. Desde o Ciclo Básico Comum ao Ciclo Biomédico."
+      images={['https://apicefalia.s3.amazonaws.com/hero1_6e5386f782.svg']}
+      description="Estude medicina online. Desde o Ciclo Básico Común ao Ciclo Biomédico."
       brand="David Freitas"
       reviews={[
         {
@@ -21,8 +21,7 @@ const JsonSchema = () => (
             name: 'Henrique Albert Schmaiske'
           },
           datePublished: '2020-03-06T12:37:40Z',
-          reviewBody:
-            'O Curso foi incrível! Gostei muito das explicações, bem claras e objetivas! Deixo a sugestão para um próximo Curso: NextJS mostrando fazer um Ecommerce. Compraria sem nem olhar o preço.',
+          reviewBody: '',
           name: 'Didática perfeita',
           reviewRating: {
             bestRating: '5',
@@ -44,25 +43,15 @@ const JsonSchema = () => (
           price: '289.95',
           priceCurrency: 'BRL',
           priceValidUntil: '2020-07-05',
-          url: 'https://reactavancado.com.br/',
+          url: 'https://cefalia.com/',
           availability: 'https://schema.org/InStock',
           seller: {
-            name: 'Willian Justen Cursos'
-          }
-        },
-        {
-          price: '579.99',
-          priceCurrency: 'BRL',
-          priceValidUntil: '2021-07-05',
-          url: 'https://reactavancado.com.br/',
-          availability: 'https://schema.org/InStock',
-          seller: {
-            name: 'Willian Justen Cursos'
+            name: 'Cefalia Studio'
           }
         }
       ]}
-      mpn="reactavancado"
-      sku="reactavancado"
+      mpn="cefalia"
+      sku="cefalia"
     />
   </>
 )

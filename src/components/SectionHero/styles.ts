@@ -73,7 +73,7 @@ export const ButtonWrapper = styled.div`
     `}
 
     ${media.lessThan('medium')`
-      visibility: hidden
+      visibility: hidden;
     `}
   `}
 `
@@ -115,19 +115,19 @@ export const Image = styled.img`
 
 export const IconWrapper = styled.div`
   ${({ theme }) => css`
-    color: #f2f0ee
+    color: #f2f0ee;
     cursor: pointer;
     width: 2.4rem;
     height: 2.4rem;
     display: inline-block;
-    margin-right: ${theme.spacings.xsmall}
+    margin-right: ${theme.spacings.xsmall};
   `}
 `
 
 export const LogoWrapper = styled.div`
   ${media.lessThan('medium')`
-    left: 50%
-    transform: translateX(-50%)
+    left: 50%;
+    transform: translateX(-50%);
 `}
 `
 
