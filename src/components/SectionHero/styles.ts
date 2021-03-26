@@ -71,6 +71,19 @@ export const ButtonWrapper = styled.div`
       margin: 0;
       padding-right: ${theme.spacings.medium};
     `}
+  `}
+`
+
+export const ButtonHamburguer = styled.div`
+  ${({ theme }) => css`
+    display: flex;
+    padding-top: ${theme.spacings.medium};
+    margin: 0 auto;
+
+    ${media.greaterThan('medium')`
+      margin: 0;
+      padding-right: ${theme.spacings.medium};
+    `}
 
     ${media.lessThan('medium')`
       visibility: hidden;
@@ -128,6 +141,7 @@ export const LogoWrapper = styled.div`
   ${media.lessThan('medium')`
     left: 50%;
     transform: translateX(-50%);
+    position: absolute;
 `}
 `
 
